@@ -1,0 +1,10 @@
+create database file;
+select database();
+use file;
+select database();
+create table virgin_table(name varchar(20),age int,college varchar(30));
+desc virgin_table;
+insert into virgin_table values('nisha',20,'psnacet');
+insert into virgin_table values('shree',22,'ssmiet');
+insert into virgin_table values('nandy',23,'psnacet');
+select * from virgin_table;
